@@ -1,2 +1,11 @@
+# Ignore neighbor repositories
+../HackerRank_Python_Approach_Lab/
 ../Happy_New_Year/
+
+# Ignore system/media folders
 ../image ss/
+
+# Ignore environment files
+ai_env/
+__pycache__/
+*.pyc
