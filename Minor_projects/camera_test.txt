@@ -1,0 +1,54 @@
+=====================================================
+PROJECT: AI Vision System - Camera & Frame Auditing
+VERSION: 1.0
+AUTHOR: Abhinav Shrivastav
+GOAL: Establish stable video stream and audit raw data dimensions
+=====================================================
+
+1. DESCRIPTION
+-----------------------------------------------------
+This script initializes the physical camera hardware and creates a 
+high-speed loop to capture and display video frames. This is the 
+"Data Acquisition" layer of the Sign Language AI product.
+
+2. TECHNICAL LOGIC (THE "STREAMING" METHOD)
+-----------------------------------------------------
+The algorithm follows these specific operational steps:
+
+A. HARDWARE HANDSHAKE:
+   - Command: cv2.VideoCapture(0)
+   - Logic: Requests exclusive control of the system's default camera.
+
+B. THE REFRESH LOOP (Infinite While):
+   - Logic: Constantly captures ~30 frames per second to simulate video.
+   - Operation: cap.read() returns 'success' and 'img' (The pixel matrix).
+
+C. DATA AUDIT (img.shape):
+   - Logic: Printing the shape reveals the constant data canvas.
+   - Height/Width: 480x640 pixels.
+   - Channels: 3 (Red, Green, Blue color layers).
+
+D. BUFFER DELAY & TERMINATION:
+   - Logic: cv2.waitKey(1) provides a 1ms pause for system stability.
+   - Exit: Listens for 'q' to release the hardware.
+
+3. DATA OUTPUT EXAMPLE
+-----------------------------------------------------
+Terminal Output: (480, 640, 3)
+Interpretation:
+- Height: 480 pixels
+- Width: 640 pixels
+- Colors: 3 (RGB)
+
+Observation: The shape stays constant even when the subject moves 
+because the "canvas" size is fixed by the hardware resolution.
+
+4. PM INSIGHTS & FUTURE ROADMAP
+-----------------------------------------------------
+- DATA DIMENSIONALITY: Understanding that every frame is a 
+  480x640x3 matrix allows for precise coordinate mapping.
+- STABILITY: The consistent image shape ensures that the AI 
+  model doesn't have to resize data dynamically, saving CPU cycles.
+- NEXT STEP: Installing MediaPipe to detect the 21 specific hand 
+  landmarks within this 480x640 coordinate space.
+=====================================================
