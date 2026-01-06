@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🤖 AI-PM Micro-Projects: Logic & Automation Lab
 
 **Author:** Abhinav Shrivastav  
@@ -63,3 +64,7 @@ Each project here is a micro-simulation of real-world AI PM challenges:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abhinavshrivastav-no1/)
 
 _"The goal isn't just to code; it's to build the logic that makes products smarter."_
+=======
+# Major_Projects
+This repository serves as a technical showcase for AI Product Management,bridging the gap between high-level strategy and low-level technical execution. It contains a suite of Python-driven "Logic Engines" designed to simulate and solve real-world challenges in AI lifecycle management, hardware-software integration, and data-driven decision-making.
+>>>>>>> 96e5991d96d9cacdd77dfa7590968435ec1c2d78
