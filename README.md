@@ -15,41 +15,6 @@ Each project here is a micro-simulation of real-world AI PM challenges:
 
 ---
 
-## 🏗️ Core Micro-Projects
-
-### 🎓 Grading Logic Engine (`random_grading.py`)
-- **Problem:** Automated user/system performance tiering based on variable inputs.
-- **Solution:** Threshold-based classification using `random` simulation to test logic gates (Grade A/B/Improvement).
-- **Documentation:** inside the folder
-
-### 🏥 Robot Health Monitor (`robot_health.py`)
-- **Problem:** Proactive maintenance is required to prevent downtime in AI-integrated hardware.
-- **Solution:** Threshold-based logic to monitor system vitals and trigger status alerts (CPU/RAM).
-- **Documentation:** inside the folder
-
-### 📦 Inventory Lifecycle Manager (`inventory_manager.py`)
-- **Problem:** Manual tracking of high-demand AI hardware leads to stock inaccuracies.
-- **Solution:** A dynamic inventory system managing chip lifecycles (A100, H100, B100) using list manipulation.
-- **Documentation:** inside the folder
-
-### 📊 Feature Ranking Engine (`ranking_number.py`)
-- **Problem:** Product backlogs often lack objective numerical prioritization.
-- **Solution:** A script that processes and ranks datasets to identify high-priority features.
-- **Documentation:** inside the folder
-
-### 🔢 Metric Extractor (`largest_number.py`)
-- **Problem:** Need quick identification of peak performance values from raw data.
-- **Solution:** Comparison logic to instantly isolate the highest value in a dataset for A/B testing metrics.
-- **Documentation:** inside the folder
-
----
-
-## 🚀 How to Use
-
-1. **Clone the repo:** `git clone https://github.com/abhinavshrivastavgit/Micro_Projects.git`
-2. **Install Dependencies:** `pip install opencv-python --only-binary=:all:` (For upcoming vision modules)
-3. **Run a script:** `python random_grading.py`
-
 ## 🛠️ Tech Stack
 
 - **Language:** Python 3.14 (Latest)
@@ -64,5 +29,4 @@ Each project here is a micro-simulation of real-world AI PM challenges:
 
 _"The goal isn't just to code; it's to build the logic that makes products smarter."_
 =======
-# Major_Projects
-This repository serves as a technical showcase for AI Product Management,bridging the gap between high-level strategy and low-level technical execution. It contains a suite of Python-driven "Logic Engines" designed to simulate and solve real-world challenges in AI lifecycle management, hardware-software integration, and data-driven decision-making.
+
