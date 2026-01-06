@@ -1,4 +1,4 @@
-# 🤖 AI-PM Micro-Projects: Logic & Automation Lab
+# 🤖 AI-PM-Projects: Logic & Automation Lab
 
 **Author:** Abhinav Shrivastav  
 **Focus:** AI Product Management | Technical Logic | Product Lifecycle Automation
